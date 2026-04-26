@@ -1,0 +1,10 @@
+{
+  "loginCredentials": [
+    {
+      "username": "student",
+      "password": "Password123",
+      "expectedMessage": "Congratulations student. You successfully logged in!",
+      "description": "Valid login"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "playwright-handson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:cucumber": "npx cucumber-js",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "test:data-driven": "npx playwright test tests/login.data-driven.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sre-cloud-devops/playwright-handson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sre-cloud-devops/playwright-handson/issues"
+  },
+  "homepage": "https://github.com/sre-cloud-devops/playwright-handson#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.8.2",
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "csv-parse": "^6.2.1",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
