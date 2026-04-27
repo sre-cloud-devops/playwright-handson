@@ -128,3 +128,6 @@ The data-driven tests cover:
 5. **Run tests** to verify
 
 This setup provides a scalable, maintainable testing framework for web applications! 🎉
+
+Cucumber report generated:
+<img width="799" height="822" alt="image" src="https://github.com/user-attachments/assets/793c452c-5f7d-43e5-b75b-d275d80d133e" />
